@@ -1,0 +1,19 @@
+{
+  "name": "less-mixins",
+  "version": "0.0.0",
+  "description": "Useful LESS mixins",
+  "main": "index.less",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/realorangeone/less-mixins.git"
+  },
+  "author": "TheOrangeOne",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/realorangeone/less-mixins/issues"
+  },
+  "homepage": "https://github.com/realorangeone/less-mixins#readme",
+}
