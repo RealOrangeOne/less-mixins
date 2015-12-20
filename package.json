@@ -6,8 +6,8 @@
   "scripts": {
     "test": "npm run build",
     "build": "lessc --silent index.less build.css",
-    "test": "lessc --silent index.less build.css && cleancss -d --s0 -o build.css build.css",
-    "clean": "rm -rf node_modules/ build.css"
+    "test": "lessc --silent test.less test.css && cleancss -d --s0 -o test.css test.css",
+    "clean": "rm -rf node_modules/ build.css test.css"
   },
   "repository": {
     "type": "git",
