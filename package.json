@@ -16,4 +16,8 @@
     "url": "https://github.com/realorangeone/less-mixins/issues"
   },
   "homepage": "https://github.com/realorangeone/less-mixins#readme",
+  "devDependencies": {
+    "clean-css": "^3.4.8",
+    "less": "^2.5.3"
+  }
 }
