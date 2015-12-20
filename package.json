@@ -4,7 +4,9 @@
   "description": "Useful LESS mixins",
   "main": "index.less",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run build",
+    "build": "lessc --silent index.less build.css && cleancss -d --s0 -o build.css build.css",
+    "clean": "rm -rf node_modules/ build.css"
   },
   "repository": {
     "type": "git",
