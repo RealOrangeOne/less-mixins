@@ -6,6 +6,7 @@
   "scripts": {
     "test": "npm run build",
     "build": "lessc --silent index.less build.css",
+    "pretest": "npm run build",
     "test": "lessc --silent test.less test.css && cleancss -d --s0 -o test.css test.css",
     "clean": "rm -rf node_modules/ build.css test.css"
   },
